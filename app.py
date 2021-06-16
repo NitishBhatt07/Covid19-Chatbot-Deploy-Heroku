@@ -13,13 +13,13 @@ app = Flask(__name__)
 
 lematizer = WordNetLemmatizer()
 
-intents = json.loads(open("data/intents.json").read())
+intents = json.loads(open("intents.json").read())
 
-words = pickle.load(open("data/words.pkl",'rb'))
-classes = pickle.load(open("data/classes.pkl",'rb'))
+words = pickle.load(open("words.pkl",'rb'))
+classes = pickle.load(open("classes.pkl",'rb'))
 
 
-model = load_model("model/chatbotModel.h5")
+model = load_model("chatbotModel.h5")
 
 
 def clean_up_sentence(sentence):
