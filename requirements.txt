@@ -8,6 +8,6 @@ itsdangerous==0.24
 requests==2.25.1
 nltk==3.6.1
 tensorflow-cpu==2.5.0
-keras==2.5.0
+keras
 numpy==1.19.5
 h5py==3.1.0
