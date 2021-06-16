@@ -1,0 +1,105 @@
+{"intents":[
+
+    {"tag": "greetings",
+    "patterns": ["hello","hi","hola","greet","good day","hey"],
+    "responses": ["hello","hola","hey","what can i do for you"]
+    },
+    
+    {"tag": "goodbye",
+    "patterns": ["cya","see you later","i am leaving","goodbye","bye","have a nice day","see ya"],
+    "responses": ["sad to see you go","ok talk to you later","goodbye"]
+    },
+    
+  
+    {"tag": "covid",
+    "patterns": ["what is covid19","do you know about the corona virus","what is covid","what is corona","what is coronavirus","tell m about corna virus","Why is the disease being called coronavirus disease 2019, COVID-19","do you know about covid"],
+    "responses": ["COVID-19 is a disease caused by a virus called SARS-CoV-2. Most people with COVID-19 have mild symptoms, but some people can become severely ill","Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.","coronaviruses are a type of virus. There are many different kinds, and some cause disease. A coronavirus identified in 2019, SARS-CoV-2, has caused a pandemic of respiratory illness, called COVID-19"]
+    },
+    
+    {"tag": "name",
+    "patterns": ["what is youur name","who are you","what you can do for me","what should i call you","can you tell me your name","what you can do for me"],
+    "responses": ["my name is botcov" , "i can help you to give some information about corona virus"]
+    },
+    
+    
+    {"tag": "symptoms",
+    "patterns": ["what is symptoms of corona","what is symptoms of covid","how to know we are corona positive or not","symptoms of covid positive","symptoms of corona virus positive","symptoms of covid","symptoms of corona","main symptoms of covid",",main symptoms of corona virus"],
+    "responses": ["COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization \nMost common symptoms:fever ,dry cough ,tiredness \n Less common symptoms:aches and pains ,sore throat ,diarrhoea,loss of taste or smell \nSerious symptoms: difficulty breathing or shortness of breath,chest pain or pressure,loss of speech or movement"]
+    },
+    
+    {"tag": "spread",
+    "patterns": ["How does COVID-19 spread","how does covid spread","how can we infected by coronavirus","how does coronavirous spread","can corona virous spread by air","how can corona spread","How is it transmitted","how coronavirus transmitted","what is comunity spread","Can mosquitoes or ticks spread the virus that causes COVID-19?"],
+    "responses": ["The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe.These particles range from larger respiratory droplets to smaller aerosols","Current evidence suggests that the virus spreads mainly between people who are in close contact with each other, typically within 1 metre (short-range).A person can be infected when aerosols or droplets containing the virus are inhaled or come directly into contact with the eyes, nose, or mouth","The virus can spread in poorly ventilated and/or crowded indoor settings, where people tend to spend longer periods of time. This is because aerosols remain suspended in the air or travel farther than 1 metre "]
+    },
+    
+    {"tag": "prevention",
+    "patterns": ["how can i prevent by corona","how can i protect myself","how to be safe by covid","what to do for not getting corona positive"],
+    "responses": ["To prevent the spread of COVID-19:Clean your hands often. Use soap and water, or an alcohol-based hand rub.Maintain a safe distance from anyone who is coughing or sneezing.Wear a mask when physical distancing is not possible.Don’t touch your eyes, nose or mouth.Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.Stay home if you feel unwell.If you have a fever, cough and difficulty breathing, seek medical attention."]
+    },
+    
+    {"tag": "vaccines",
+    "patterns": ["Which are the most advanced vaccines against COVID-19", "Which are the most advanced vaccines against coronavirus","is it covid vaccine safe","what is the name of corna vaccines","is covid vaccine harmful","is it covid vaccine safe for child"],
+    "responses": ["India has authorized three COVID-19 vaccines: Covaxin, developed by Bharat Biotech. Covishield, developed by Oxford/AstraZeneca. Sputnik V, developed by the Gamaleya Research Institute of Epidemiology and Microbiology, RussiaVaccination has been shown to contribute to reducing deaths and severe illness from COVID-19,    and to reduce the transmission of COVID-19. Vaccinating as many people as possible and reducing the spread of disease is important"]
+    },
+    
+    {"tag": "side effects",
+    "patterns": ["what is side effects of covid vaccine","is there is any side effect of corona vaccine"],
+    "responses": ["Short-term reactions, such as soreness at the injection site, fatigue or headache are common following any vaccination with COVID-19 vaccines.These reactions usually pass in a day or two","The most common side effects following COVID-19 vaccines are fatigue, a fever, headaches, body aches, chills, nausea, diarrhea, and pain at the site of injection, according to the World Health Organization "]
+    },
+    
+    {"tag": "deaths",
+    "patterns": ["how many people die from covid","total death from corona in india","total recovery rate in india"],
+    "responses": ["relex buddy, you will be safe "]
+    },
+    
+    {"tag": "God",
+    "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+    "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"],
+	 "context_set": ""
+	},
+	
+    {"tag": "joke",
+    "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
+    "responses": ["How do you make holy water? you boil the hell out of it","what kind of bees make milk instead of honey?Boobies", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+	 "context_set": ""
+	},
+	
+	{"tag": "killing",
+    "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+    "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
+	 "context_set": ""
+	},
+	
+	{"tag": "stories",
+    "patterns": ["tell me a story?", "can you tell me a story"],
+    "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+	 "context_set": ""
+	},
+	
+	{"tag": "weather",
+    "patterns": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
+    "responses": ["Fetching weather updates ..."],
+	 "context_set": "weather"
+	},
+	
+	{"tag": "google",
+    "patterns": ["googling", "search google", "google it", "google", "search"],
+    "responses": ["looking ..."],
+	 "context_set": "google"
+	},
+	
+	{"tag": "wikipedia",
+    "patterns": ["wikipedia", "wiki"],
+    "responses": ["Searching ..."],
+	 "context_set": "wikipedia"
+	},
+	
+	{"tag": "news",
+    "patterns": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
+    "responses": ["Getting news ..."],
+	 "context_set": "news"
+	}
+    
+    
+    
+]}
