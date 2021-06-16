@@ -4,7 +4,6 @@ import json
 import pickle
 import numpy as np
 from nltk.stem import WordNetLemmatizer
-import nltk
 from tensorflow.keras.models import load_model
 
 
