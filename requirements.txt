@@ -1,0 +1,11 @@
+Flask==1.1.2
+gunicorn
+random2==1.0.1
+jsons==1.4.2
+pickles==0.1.1
+numpy==1.20.3
+nltk==3.6.2
+tensorflow-cpu==2.5.0
+Keras==2.4.3
+
+
