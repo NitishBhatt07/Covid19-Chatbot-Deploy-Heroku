@@ -7,7 +7,6 @@ gunicorn==19.6.0
 itsdangerous==0.24
 requests==2.25.1
 nltk==3.6.1
-json==2.0.9
 tensorflow-cpu==2.5.0
 keras==2.5.0
 numpy==1.19.5
