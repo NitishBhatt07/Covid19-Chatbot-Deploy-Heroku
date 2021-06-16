@@ -1,14 +1,10 @@
 Flask==1.1.2
 Jinja2==2.11.3
-MarkupSafe==0.23
-Werkzeug==0.11.10
-click==6.6
 gunicorn==19.6.0
-itsdangerous==0.24
-requests==2.25.1
 nltk==3.6.1
 tensorflow-cpu==2.5.0
 Keras==2.4.3
 numpy==1.19.5
 h5py==3.1.0
 jsons==1.4.2
+pickles==0.1.1
