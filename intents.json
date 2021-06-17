@@ -88,11 +88,6 @@
 	 "context_set": "google"
 	},
 	
-	{"tag": "abuse",
-    "patterns": ["hello bsdk", "bsdk", "bc", "mc", "bol na bc","bkl","teri maa ki","bta bkl","asshole","abe o lwde","lwde","gaand mra"],
-    "responses": ["kya hai bkl","bol na mc","abe jaa maa chuda","nikl lawde","bhai tu gaand mra"],
-	 "context_set": "google"
-	},
 	
 	{"tag": "wikipedia",
     "patterns": ["wikipedia", "wiki"],
