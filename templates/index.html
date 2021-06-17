@@ -7,18 +7,24 @@
 <style>
 
 .center{
-		width: 60%;
-        position: absolute; 
-        left: 0;
-        right: 0;
-        top: 50;
-        margin: auto;
-  		padding: 10px;
-        overflow: auto;
+      margin: auto;
+      width: 80%;
+      border: 3px solid green;
+      padding: 10px;
+		
 }
 
+.center1{
+      margin: auto;
+      width: 50%;
+      border: 3px solid green;
+      padding: 10px;
+		
+}
+
+
 input[type=text], select {
-  width: 100%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -31,7 +37,7 @@ input[type=text], select {
   border-radius: 4px;
 }
     input[type=submit] {
-  width: 100%;
+  width: 80%;
   background-color: #707070;
   color: white;
   padding: 14px 20px;
@@ -46,7 +52,7 @@ input[type=submit]:hover {
 }
 
 textarea {
-  width: 100%;
+  width: 80%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -66,19 +72,18 @@ textarea {
 <body style="background-color: #404040"">
 
 
-<div class="illustration">
-</div>
-
-    <section id="contact">
-            <div class="enter">
+    <section >
+            <div class="center">
               <div class="row">
-                  <div class="col-lg-12 text-center">
+                  <div >
                       <div class="section-heading">
                           <h2 class="title" style="margin-bottom:60px;color:#fff;text-align:center">Covid Bot</h2>
                       </div>
                   </div>
               </div>
+             
               
+              <div class="center1">
                 <form method="post" action = "{{url_for('predict')}}" id="contactform">
                   <div class="form">
                     <div class="row">
@@ -90,10 +95,10 @@ textarea {
                     <input type="submit" id="submit" class="clearfix btn" value="Ask">
                   </div>
                 </form>
-
-              </div>
             </div>
-            <div class="overlay"></div>
+             
+            </div>
+          
     </section>
 
 
