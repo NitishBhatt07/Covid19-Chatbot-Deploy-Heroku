@@ -71,10 +71,10 @@ def predict():
        message = [str(x) for x in request.form.values()]
        ints = predict_class(message[0])
        res = get_response(ints, intents)
+       speak(res)
        if len(message[0]) < 2:
            return render_template('index.html',predicted_text="Enter something")
        else:
-           speak(res)
            return render_template('index.html',predicted_text="Bot: "+res)
      
 if __name__ == '__main__':
